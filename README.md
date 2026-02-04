@@ -66,29 +66,29 @@ Available types:
 
 ## Project Structure
 
+```
 SurvivalShooter/
 ├─ src/
-│ └─ game/
-│ ├─ Main.java # Creates the JFrame and starts the game
-│ ├─ GamePanel.java # Main canvas: update + render + game state
-│ ├─ GameLoop.java # 60 FPS loop (update + repaint)
-│ ├─ entities/
-│ │ ├─ Player.java # Player movement, shooting, power-up states
-│ │ ├─ Enemy.java # Enemy chase + enemy shooting
-│ │ ├─ Bullet.java # Projectile movement and drawing
-│ │ └─ PowerUp.java # Power-up entity + rendering
-│ ├─ input/
-│ │ ├─ KeyHandler.java # WASD + pause + restart logic
-│ │ └─ MouseHandler.java # Aim + shooting on mouse press
-│ ├─ logic/
-│ │ ├─ Collision.java # Bullet collisions (enemy/player)
-│ │ └─ Spawner.java # Enemy and power-up spawning
-│ └─ utils/
-│ └─ MathUtils.java # Vector normalization utilities
+│  └─ game/
+│     ├─ Main.java               # Creates the JFrame and starts the game
+│     ├─ GamePanel.java          # Main canvas: update + render + game state
+│     ├─ GameLoop.java           # 60 FPS loop (update + repaint)
+│     ├─ entities/
+│     │  ├─ Player.java          # Player movement, shooting, power-up states
+│     │  ├─ Enemy.java           # Enemy chase + enemy shooting
+│     │  ├─ Bullet.java          # Projectile movement and drawing
+│     │  └─ PowerUp.java         # Power-up entity + rendering
+│     ├─ input/
+│     │  ├─ KeyHandler.java      # WASD + pause + restart logic
+│     │  └─ MouseHandler.java    # Aim + shooting on mouse press
+│     ├─ logic/
+│     │  ├─ Collision.java       # Bullet collisions (enemy/player)
+│     │  └─ Spawner.java         # Enemy and power-up spawning
+│     └─ utils/
+│        └─ MathUtils.java       # Vector normalization utilities
 ├─ README.md
 └─ .gitignore
-
-
+```
 ---
 
 ## How to Run
